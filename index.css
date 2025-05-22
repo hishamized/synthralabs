@@ -1,0 +1,85 @@
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #333;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      padding: 20px;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h2 {
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      color: #007bff;
+    }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      padding: 10px;
+      text-align: center;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .live-link {
+      background: #28a745;
+      color: white;
+    }
+
+    .live-link:hover {
+      background: #218838;
+    }
+
+    .youtube-link {
+      background: #ff0000;
+      color: white;
+    }
+
+    .youtube-link:hover {
+      background: #cc0000;
+    }
+
+    .linkedin-link {
+      background: #0077b5;
+      color: white;
+    }
+
+    .linkedin-link:hover {
+      background: #005983;
+    }
+
+    @media (max-width: 600px) {
+      .buttons {
+        flex-direction: column;
+      }
+    }
+  

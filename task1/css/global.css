@@ -1,0 +1,45 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+/* * {
+  outline: 1px solid red;
+} */
+
+#heroImgContainer{
+    width: 300px;
+    height: 300px;
+}
+.social-icons-footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+    gap: 10px
+}
+@media screen and (min-width: 900px) {
+    .social-icons-footer{
+       grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (min-width: 768px){
+    #sidebar_container{
+       height: 100vh;
+    }
+    #heroImgContainer{
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 600px){
+    #heroImgContainer{
+        width: 200px;
+        height: 200px;
+        margin-top: 25px;
+    }
+}
