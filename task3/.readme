@@ -1,0 +1,65 @@
+
+# Product Landing Page – AmazingGadget
+
+This project is a responsive and visually appealing Product Landing Page built as part of an internship task. It showcases a fictional product named AmazingGadget, designed to attract potential customers with a clear presentation of its features, benefits, testimonials, and a call to action.
+
+Task Description
+
+Task 3: Product Landing Page
+
+> Design a compelling landing page for a fictional product or service. The goal is to attract potential customers by clearly presenting the product’s features, benefits, and a call to action.
+
+
+ Key Features
+
+ Hero Section: Eyecatching banner with the product name, slogan, and a background image.
+ Features Section: Describes three major benefits using stylish Bootstrap cards.
+ Gallery Section: Displays product images with titles and prices using responsive Bootstrap cards.
+ Testimonials: Includes 6 detailed user testimonials with profile photos and quotes.
+ Contact Form: A simple user inquiry form (nonfunctional).
+ Call to Action: Prominent "Buy Now" button encouraging users to take action.
+ Footer: Includes copyright notice, LinkedIn, and GitHub.
+
+ Technologies Used
+
+ HTML5
+ CSS3
+ Bootstrap 5
+ JavaScript (Vanilla)
+ Bootstrap Icons
+ Image API Links (`randomuser.me`, `unsplash.it` for mock images)
+
+
+Project Structure
+
+├── index.html # Main HTML file
+├── style.css # Custom styles (optional)
+├── script.js # JavaScript interactivity (e.g., form behavior)
+└── assets/ # Product images (or links used in HTML directly)
+
+Image Sources
+
+ [https://randomuser.me](https://randomuser.me)  User profile photos
+ [https://unsplash.it](https://unsplash.it) or placeholders used for product/gallery images
+
+
+How to View Locally
+
+1. Clone or download the repository.
+2. Open the `index.html` file directly in your browser.
+3. No additional setup or dependencies are required.
+
+
+Author
+
+Mohammad Hisham Mir  
+ [LinkedIn](https://www.linkedin.com/in/mohammadhisham10287b26b/)  
+ [GitHub](https://github.com/hishamized)
+
+
+ Note
+
+This landing page is a frontendonly demo and does not include backend logic for form submission or product checkout. The layout is optimized for all screen sizes using Bootstrap.
+
+
+Thank you for reviewing my work!

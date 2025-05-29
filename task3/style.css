@@ -1,0 +1,6 @@
+#main-banner {
+    min-height: 70vh;
+   background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 40%, rgba(0, 0, 0, 0.6) 100%), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+}

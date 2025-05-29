@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section id="main-banner" class="bg-dark text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4">AmazingGadget</h1>
+            <p class="lead">Revolutionize your daily tasks with ease.</p>
+            <a href="#features" class="btn btn-primary btn-lg mt-3">Learn More</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-5">Why Choose AmazingGadget?</h2>
+            <div class="row g-4">
+                <!-- Feature 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <div class="mb-3 text-primary">
+                                <i class="bi bi-robot fs-1"></i>
+                            </div>
+                            <h5 class="card-title">Smart Automation</h5>
+                            <p class="card-text">Handle tasks automatically with intelligent features designed for
+                                convenience and efficiency.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Feature 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <div class="mb-3 text-success">
+                                <i class="bi bi-phone fs-1"></i>
+                            </div>
+                            <h5 class="card-title">Compact Design</h5>
+                            <p class="card-text">Lightweight and portable, perfect for on-the-go use without
+                                compromising performance.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Feature 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow border-0">
+                        <div class="card-body">
+                            <div class="mb-3 text-warning">
+                                <i class="bi bi-battery-full fs-1"></i>
+                            </div>
+                            <h5 class="card-title">Long Battery</h5>
+                            <p class="card-text">Enjoy up to 24 hours of usage on a single charge—stay powered wherever
+                                you go.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Gallery Section -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="mb-4">Product Gallery</h2>
+            <div class="row g-4">
+                <!-- Product 1 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./assets/product1.jpg" class="card-img-top product-img" alt="Product 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Smart Watch Pro</h5>
+                            <p class="card-text">$99.99</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./assets/product2.jpg" class="card-img-top product-img" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Wireless Headphones</h5>
+                            <p class="card-text">$79.99</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm">
+                        <img src="./assets/product3.jpg" class="card-img-top product-img" alt="Product 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Portable Speaker</h5>
+                            <p class="card-text">$59.99</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials or Pricing -->
+    <section class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Simple Pricing</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-4">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h3>$49.99</h3>
+                            <p>One-time purchase</p>
+                            <ul class="list-unstyled">
+                                <li>✔ Full Features</li>
+                                <li>✔ Free Shipping</li>
+                                <li>✔ 1-Year Warranty</li>
+                            </ul>
+                            <button class="btn btn-success">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Form -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <form id="contactForm" class="row g-3">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Your Email" required>
+                </div>
+                <div class="col-12">
+                    <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p class="mb-2">&copy; 2025 AmazingGadget. All rights reserved.</p>
+            <div>
+                <a href="https://github.com/hishamized" target="_blank" class="text-white me-3" title="GitHub">
+                    <i class="bi bi-github fs-4"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mohammad-hisham-10287b26b/" target="_blank" class="text-white"
+                    title="LinkedIn">
+                    <i class="bi bi-linkedin fs-4"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
